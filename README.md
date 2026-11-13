@@ -1,12 +1,17 @@
-# Lista de Precios · La Giralda
+# Catálogo y Precios · La Giralda
 
-Página estática (un solo archivo, `index.html`) con la lista de precios, buscador y filtros por categoría.
+Página estática (un solo archivo, `index.html`) con dos vistas: **Catálogo** (fichas con fotos y medidas) y **Precios** (lista con buscador y filtros por categoría).
+
+## Links útiles
+- `…/` → precios (vista por defecto)
+- `…/#catalogo` → abre directo en el catálogo
+- `…/#carlos` → versión del vendedor Carlos, con su WhatsApp
 
 ## Publicar
-Funciona en cualquier hosting estático. Con GitHub Pages: *Settings → Pages → Deploy from a branch* y elegir la rama y la carpeta raíz.
+GitHub Pages: *Settings → Pages → Deploy from a branch*, elegir esta rama y `/ (root)`.
+Queda en https://salvacometto.github.io/Crack/
 
 ## Actualizar precios
-1. Abrí la página agregando `#editar` al final del link (ej. `https://…/index.html#editar`).
-2. Tocá **Editar precios**, cambiá el dólar, precios, promos o productos.
-3. Tocá **Descargar página actualizada**: se baja un `index.html` nuevo.
-4. Reemplazá el `index.html` del repositorio por ese archivo.
+1. Abrí la página con `#editar` al final del link.
+2. Tocá **Editar**, cambiá dólar, precios, promos, fotos o productos.
+3. Tocá **Descargar página actualizada** y reemplazá `index.html` en el repositorio por ese archivo.
