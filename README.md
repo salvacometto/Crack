@@ -5,7 +5,7 @@ Página estática (un solo archivo, `index.html`) con dos vistas: **Catálogo** 
 ## Links útiles
 - `…/` → precios (vista por defecto)
 - `…/#catalogo` → abre directo en el catálogo
-- `…/#carlos` → versión del vendedor Carlos, con su WhatsApp
+- `…/#carlos`, `…/#daniel`, `…/#adrian` → versión de cada vendedor, con su WhatsApp
 
 ## Publicar
 GitHub Pages: *Settings → Pages → Deploy from a branch*, elegir esta rama y `/ (root)`.
